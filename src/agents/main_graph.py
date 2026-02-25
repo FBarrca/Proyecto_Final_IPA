@@ -1,6 +1,6 @@
 from langgraph.graph import StateGraph, END
 from langchain_groq import ChatGroq
-from langfuse.callback import CallbackHandler
+from langfuse.langchain import CallbackHandler
 from langchain_core.messages import SystemMessage
 from langchain_core.messages import ToolMessage
 from agents.state import AgentState

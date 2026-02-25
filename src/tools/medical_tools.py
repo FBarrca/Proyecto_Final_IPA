@@ -1,7 +1,7 @@
 import os
 import sqlite3
 from langchain_openai import AzureOpenAIEmbeddings
-from langchain_community.vectorstores import Chroma
+from langchain_chroma import Chroma
 from langchain_core.tools import tool
 from langchain_community.utilities import SQLDatabase
 from langchain_core.prompts import PromptTemplate
